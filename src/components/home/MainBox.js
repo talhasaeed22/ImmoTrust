@@ -10,7 +10,7 @@ const MainBox = () => {
         <div className='h-[1068px] shadow-custom rounded-[10px] md:w-[1088px]'>
             <div className='bg-[#459E97] flex justify-between items-center rounded-t-[10px] xl:p-10 p-7'>
                 <div className='flex flex-col'>
-                    <span className='xl:text-[24px] text-[20px] font-bold text-[white]'>Beginnen Sie Ihre Verkaufsreise</span>
+                    <span className='xl:text-[24px] text-[20px] font-bold text-[white]'>Beginnen Sie Ihre Verkaufsreise 👋</span>
                     <span className='xl:text-[20px] text-[16px] font-normal text-[white]'>Entdecken Sie mühelos jede Facette Ihres Verkaufsmandatsvertrags.</span>
                 </div>
                 <div className='flex flex-col items-center gap-1'>
