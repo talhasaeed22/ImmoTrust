@@ -11,7 +11,7 @@ import google from '../../assets/images/google.png'
 const SideInfo = () => {
     return (
         // h-[868px]
-        <div className='md:w-[310px] w-[100%] shadow-custom rounded-[10px]  self-center'>
+        <div className='md:w-[340px] w-[100%] shadow-custom rounded-[10px]  self-center'>
             <div className='flex items-center justify-end gap-2 p-5' >
                 <img src={screw} className='w-[24px] h-[19px]' alt='screw' />
                 <div className='bg-[#EFFBFF] w-[95px] h-[22px] rounded-[20px] items-center justify-center flex'>

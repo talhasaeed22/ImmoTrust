@@ -1,7 +1,5 @@
 import React, { useContext } from 'react'
-import vector from '../../assets/images/Vector.png'
 import '../../App.css'
-import multiple from '../../assets/icons/multiple.png'
 import HomeContext from '../../context/HomeContext'
 import MainItemBox from './MainItemBox'
 import footer from '../../assets/images/footer.png'
@@ -23,10 +21,10 @@ const MainBox = () => {
 
             <div className='h-[821px] mt-10 overflow-y-scroll overflow-x-hidden custom-scrollbar'>
                 {homeData.map((data, index)=>{
-                    return <MainItemBox vector={data.thumbnail} heading={data.heading} subHeading={data.subHeading} para={data.para} buttonColor={data.buttonColor} optionsImgs={data.optionsImg} />
+                    return <MainItemBox key={index} vector={data.thumbnail} heading={data.heading} subHeading={data.subHeading} para={data.para} buttonColor={data.buttonColor} optionsImgs={data.optionsImg} />
                 })}
             </div>
-            <div className='flex  gap-3 items-center justify-center mt-4'>
+            <div className='flex  gap-3 items-center justify-center xl:mt-4 lg:mt-10 mt-4'>
                 <span className='text-[#2B606F66] text-[10px]'>Bereitgestellt von</span>
                 <img alt='footerImg' className='w-[128px] h-[38px] ' src={footer} />
             </div>
